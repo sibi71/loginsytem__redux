@@ -1,0 +1,71 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+
+}
+.login__container{
+        background-color: black;
+        padding: 3rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: flex;
+         justify-content: center;
+         border-radius: 20px;
+         flex-direction: column;
+         color: lightgray;
+}
+.login__container form {
+    display: flex;
+    flex-direction: column;
+  
+}
+.login__container form  h5{
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.login__container form input{
+    height: 40px;
+    margin-bottom: 5px;
+    background-color: lightgray;
+    width: 30vw;
+    outline: none;
+    border: 1px solid gainsboro;
+    padding-left: 10px;
+    border-radius: 5px;
+    
+}
+.login__container form button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: #f78000;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 1px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.login__container button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: white ;
+    color:#f78000 ;
+    text-transform: capitalize;
+    border-radius: 1px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
